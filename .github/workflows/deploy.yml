@@ -24,4 +24,4 @@ jobs:
       - name: Run ML Training and Deployment
         run: |
           pip install sagemaker boto3
-          python train.py # This 'll run your colab code in AWS
+          python RAG_LLM_WC_Code.py # This 'll run your colab code in AWS
